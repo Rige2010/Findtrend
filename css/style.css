@@ -39,7 +39,6 @@ a {
 .main-container {
     margin: 0 auto 0 auto;
     max-width: 1160px;
-
 }
 
 .container {
@@ -56,6 +55,7 @@ a {
     .main-container,
     .container {
         padding: 0 22px;
+        overflow-x: hidden;
     }
 }
 

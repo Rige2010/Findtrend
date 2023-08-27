@@ -28,6 +28,7 @@ body {
     font-family: var(--font-main);
     font-size: 18px;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 a {
@@ -55,7 +56,6 @@ a {
     .main-container,
     .container {
         padding: 0 22px;
-        overflow-x: hidden;
     }
 }
 
@@ -344,6 +344,10 @@ a {
         right: 0%;
         left: 0%;
     }
+}
+
+.hero__image {
+    width: 100%;
 }
 
 /*  */

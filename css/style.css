@@ -52,6 +52,12 @@ a {
         padding: 0 30px;
     }
 }
+@media (max-width: 500px) {
+    .main-container,
+    .container {
+        padding: 0 22px;
+    }
+}
 
 /*  */
 /* Header Section */
@@ -218,6 +224,10 @@ a {
     color: var(--black);
     border-radius: 40px;
     position: relative;
+    transition: background-color 0.3s;
+}
+.green-button:hover {
+    background-color: var(--button-hover);
 }
 @media (max-width: 500px) {
     .green-button {
@@ -312,6 +322,7 @@ a {
     .hero__image-tab3 {
         top: 50%;
         right: 0%;
+        left: 0%;
     }
 }
 
@@ -331,6 +342,7 @@ a {
     .hero__image-tab4 {
         top: 75%;
         right: 0%;
+        left: 0%;
     }
 }
 
@@ -893,6 +905,10 @@ a {
     color: var(--off-white);
     background-color: var(--black);
     border-radius: 40px;
+    transition: background-color 0.3s;
+}
+.join__button:hover {
+    background-color: var(--black2);
 }
 @media (max-width: 500px) {
     .join__button {
@@ -967,4 +983,8 @@ a {
 
 .footer__navigation-link {
     color: var(--black);
+    transition: color 0.3s;
+}
+.footer__navigation-link:hover {
+    color: var(--black2);
 }

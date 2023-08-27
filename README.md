@@ -1,0 +1,2 @@
+# Findtrend
+Minimize your tabs

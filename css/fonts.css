@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Effra";
+    src:
+        url("../fonts/Effra.woff") format("woff"),
+        url("../fonts/Effra.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Effra";
+    src:
+        url("../fonts/Effra-Medium.woff") format("woff"),
+        url("../fonts/Effra-Medium.woff2") format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Effra";
+    src:
+        url("../fonts/Effra-Bold.woff") format("woff"),
+        url("../fonts/Effra-Bold.woff2") format("woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Effra";
+    src:
+        url("../fonts/Effra-Heavy.woff") format("woff"),
+        url("../fonts/Effra-Heavy.woff2") format("woff2");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        url("../fonts/Inter-Medium.woff") format("woff"),
+        url("../fonts/Inter-Medium.woff2") format("woff2");
+    font-weight: 500;
+}
